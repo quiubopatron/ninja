@@ -55,7 +55,7 @@ public class CourseController {
 
         courseServiceImp.updateCourse(course);
 
-        return "";
+        return "redirect:/course/listcourses";
 
     }
 
